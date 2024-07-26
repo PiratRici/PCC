@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GEEKBOY</title>
+    <title>Nejlepší PC Sestavy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>NEJLEPŠÍ PC SESTAVY</h1>
-        <p>Každý den vybíráme nejlepší PC komponenty do určité cenové kategorie. Zajistíme nejlepší poměr ceny a výkonu.</p>
+        <div class="logo">GEEKBOY</div>
+        <nav>
+            <ul>
+                <li><a href="#">DOMŮ</a></li>
+                <li><a href="#">RECENZE</a></li>
+                <li><a href="#">ČLÁNKY</a></li>
+                <li><a href="#">PC SESTAVY</a></li>
+                <li><a href="#">TESTY</a></li>
+            </ul>
+        </nav>
     </header>
-    <section class="price-categories">
-        <div class="category">
-            <h2>DO 15 000 KČ</h2>
-            <!-- Zde můžete přidat obrázek nebo další obsah -->
-        </div>
-        <div class="category">
-            <h2>DO 20 000 KČ</h2>
-            <!-- Zde můžete přidat obrázek nebo další obsah -->
-        </div>
-        <!-- Další kategorie ... -->
-    </section>
-    <!-- Další sekce a obsah stránky -->
+    <main>
+        <section class="main-section">
+            <h1>NEJLEPŠÍ PC SESTAVY</h1>
+            <p>Každý den vybíráme nejlepší PC komponenty do určité cenové kategorie. Zajistíme nejlepší poměr ceny a výkonu.</p>
+            <div class="sestavy">
+                <div class="sestava" onclick="redirectTo('link1')">DO 15 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link2')">DO 20 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link3')">DO 25 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link4')">DO 30 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link5')">DO 35 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link6')">DO 40 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link7')">DO 45 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link8')">DO 55 000 KČ<br>PC SESTAVA</div>
+                <div class="sestava" onclick="redirectTo('link9')">ULTIMÁTNÍ<br>PC SESTAVA</div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
